@@ -1,0 +1,66 @@
+/* html {
+    
+    font-size: 20px;
+} */
+
+body {
+    background: #FFFCF2;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+    letter-spacing: 0.075em;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+.navbar.scrolled {
+    background: #ffdc7b;
+    transition: background 500ms;
+}
+
+.bg-floral {
+    background: #FFFCF2;
+}
+
+#mainNavbar, #mainNavbar .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 200;
+    letter-spacing: 0.075em;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #e07a5f;
+}
+
+@media (max-width:1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+
+.highlight-orange {
+    color: #e07a5f;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tea-icon {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
